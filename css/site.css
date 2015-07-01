@@ -156,3 +156,25 @@ ul.social li {
   text-transform: uppercase;
   line-height: 33px;
 }
+
+.jumbotron {
+  background: url(../img/pattern.png) #4F4343;
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-top: 120px;
+  padding-bottom: 350px;
+  border-radius: 0;
+  text-align: center;
+  color: #fcf1de;
+  font-size: 175%;
+}
+
+.jumbotronwidth
+{
+max-width:100%;
+}
+
+.copyright {
+  margin-left: 45px;
+  margin-top: 15px;
+}
