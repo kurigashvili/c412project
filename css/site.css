@@ -1,6 +1,6 @@
 
 /*Services */
-#service{
+#service,{
 	width: 100%;
 	padding: 40px 0;
 
@@ -177,4 +177,7 @@ max-width:100%;
 .copyright {
   margin-left: 45px;
   margin-top: 15px;
+}
+.contact{
+margin-top: 100px;
 }
