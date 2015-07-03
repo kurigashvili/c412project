@@ -58,25 +58,129 @@
     </nav>
 
     <div class="container theme-showcase" role="main">
-       
-           
-        
+
+
+
     </div> <!-- /container -->
-	
-      <div class="container contact">
+
+    <div class="container contact">
         <div class="row">
-          <div class="col-md-12">
-		  <h1>Where are we located?</h1>
-		   <address>
-               <strong>MobileTek, Inc. World Headquarters</strong> <br>
-                5500 N St Louis Ave <br>
-                Chicago, IL 60625 <br>
-				<abbr title="Phone">P:</abbr> (312) 555-5555
-            </address>  
-		  </div>
-		 </div>
-		 </div>
-		 
+            <div class="col-md-12">
+                <h1>Where are we located?</h1>
+                <address>
+                    <strong>MobileTek, Inc. World Headquarters</strong> <br>
+                    5500 N St Louis Ave <br>
+                    Chicago, IL 60625 <br>
+                    <abbr title="Phone">P:</abbr> (312) 555-5555
+                </address>
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="form-horizontal">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend>Contact Us</legend>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="firstName">First Name</label>
+                        <div class="col-md-4">
+                            <input id="firstName" type="text" placeholder="Enter First Name" class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="lastName">Last Name</label>
+                        <div class="col-md-4">
+                            <input id="lastName" type="text" placeholder="Enter Last Name" class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="email">Email</label>
+                        <div class="col-md-4">
+                            <input id="email" type="email" placeholder="Enter Email Address" class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="phone">Phone Number</label>
+                        <div class="col-md-4">
+                            <input id="phone" type="number" placeholder="Enter Phone Number" class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="company">Enter Company Name</label>
+                        <div class="col-md-4">
+                            <input id="company" type="text" placeholder="Enter the name of you company or organization" class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Multiple Checkboxes (inline) -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="service">Which service are you interested in?</label>
+                        <div class="col-md-4">
+                            <label class="checkbox-inline" for="service-0">
+                                <input type="checkbox" id="service-0" value="android">
+                                Android Development
+                            </label>
+                            <label class="checkbox-inline" for="service-1">
+                                <input type="checkbox" id="service-1" value="ios">
+                                iOS Development
+                            </label>
+                            <label class="checkbox-inline" for="service-2">
+                                <input type="checkbox" id="service-2" value="windowsApp">
+                                Windows 8 App Development
+                            </label>
+                            <label class="checkbox-inline" for="service-3">
+                                <input type="checkbox" id="service-3" value="windowsDesktop">
+                                Windows Desktop Development
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="help">How can we help you?</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="help" ></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="hear">How did you hear about us?</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="hear"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="submit">Done?</label>
+                        <div class="col-md-8">
+                            <button id="submit" class="btn btn-success">Submit</button>
+                            <button id="reset" class="btn btn-danger">Reset</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
     <!-- Core JavaScript Libraries-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
