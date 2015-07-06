@@ -181,3 +181,11 @@ max-width:100%;
 .contact{
 margin-top: 100px;
 }
+
+.error { 
+color: #f00; 
+}
+
+.success { 
+color: #060; 
+}
