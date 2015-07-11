@@ -199,3 +199,7 @@ height: 250px;
 .navbar-brand {
   padding: 5px 5px;
 }
+
+.navbar-inverse {
+  background-color: #005EBA;
+  }
