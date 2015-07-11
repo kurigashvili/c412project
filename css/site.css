@@ -189,3 +189,9 @@ color: #f00;
 .success { 
 color: #060; 
 }
+
+#map-canvas{
+background-color: rgb(229, 227, 223);
+width: 400px;
+height: 250px;
+}
