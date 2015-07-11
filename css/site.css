@@ -195,3 +195,7 @@ background-color: rgb(229, 227, 223);
 width: 400px;
 height: 250px;
 }
+
+.navbar-brand {
+  padding: 5px 5px;
+}
