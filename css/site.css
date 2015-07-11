@@ -31,11 +31,11 @@
 }
 
 .service-container:hover > .service-icon a{
-	-webkit-box-shadow: 0 0 0 5px #101010;
-	   -moz-box-shadow: 0 0 0 5px #101010;
-		-ms-box-shadow: 0 0 0 5px #101010;
-		 -o-box-shadow: 0 0 0 5px #101010;
-			box-shadow: 0 0 0 5px #101010;
+	-webkit-box-shadow: 0 0 0 5px #005EBA;
+	   -moz-box-shadow: 0 0 0 5px #005EBA;
+		-ms-box-shadow: 0 0 0 5px #005EBA;
+		 -o-box-shadow: 0 0 0 5px #005EBA;
+			box-shadow: 0 0 0 5px #005EBA;
 }
 
 .service-icon{
@@ -50,7 +50,7 @@
 	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #101010;
+	background: #005EBA;
 	border: 8px solid #fff;
 	-webkit-border-radius: 100%;
 	   -moz-border-radius: 100%;
