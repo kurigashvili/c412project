@@ -1,4 +1,10 @@
 
+#content {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+
 /*Services */
 #service,{
 	width: 100%;
