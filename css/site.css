@@ -227,3 +227,14 @@ height: 250px;
   border: none !important;
 }
 
+.panel-heading.gold span{
+color: gold;
+}
+
+.panel-heading.silver span{
+color: silver;
+}
+
+.panel-heading.bronze span{
+color: #CD7F32;
+}
