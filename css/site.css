@@ -209,10 +209,7 @@ height: 250px;
 .navbar-inverse {
   background-color: #005EBA;
   }
-  .prices{
-  padding-top: 100px;
-  }
-  
+
  .box-style-1 {
   text-align: center;
   padding: 20px;
@@ -250,3 +247,11 @@ color: #CD7F32;
   border: 3px solid #008cba;
   min-height: 320px;
 }
+
+#product-carousel .item{
+        margin: 3px;
+    }
+#product-carousel .item img{
+        display: block;
+        height: 150px;
+    }
