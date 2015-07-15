@@ -164,7 +164,7 @@ ul.social li {
 }
 
 .jumbotron {
-  background: url(../img/pattern.png) #4F4343;
+  background: url(../img/pattern.png) #929496;
   margin-bottom: 0;
   border-bottom: 0;
   padding-top: 120px;
@@ -237,4 +237,16 @@ color: silver;
 
 .panel-heading.bronze span{
 color: #CD7F32;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  color: white;
+  }
+  .jumbotron p {
+  color: white;
+}
+
+.product.panel{
+  border: 3px solid #008cba;
+  min-height: 320px;
 }
