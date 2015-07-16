@@ -1,3 +1,6 @@
+/*AUTHORS: Kakha Urigashvili, Kaushal Patel, Mohamed Hamedelniel 
+  PROJECT: Mobile Tek for CS412 at NEIU
+*/
 
 #content {
   padding: 40px 0;
@@ -92,6 +95,14 @@
 }
 
 /*Footer */
+.copyright {
+  margin-left: 45px;
+  margin-top: 15px;
+}
+.contact{
+margin-top: 100px;
+}
+
 .subfooter {
   background-color: #f5f5f5;
   padding: 25px 0;
@@ -163,6 +174,7 @@ ul.social li {
   line-height: 33px;
 }
 
+/*Jumbotron*/
 .jumbotron {
   background: url(../img/pattern.png) #929496;
   margin-top:50px;
@@ -187,14 +199,14 @@ ul.social li {
 max-width:100%;
 }
 
-.copyright {
-  margin-left: 45px;
-  margin-top: 15px;
-}
-.contact{
-margin-top: 100px;
+.jumbotron h1, .jumbotron .h1 {
+  color: white;
+  }
+.jumbotron p {
+  color: white;
 }
 
+/*General*/
 .error { 
 color: #f00; 
 }
@@ -203,12 +215,14 @@ color: #f00;
 color: #060; 
 }
 
+/*Google Map*/
 #map-canvas{
 background-color: rgb(229, 227, 223);
 width: 400px;
 height: 250px;
 }
 
+/*Navigation */
 .navbar-brand {
   padding: 5px 5px;
 }
@@ -217,7 +231,9 @@ height: 250px;
   background-color: #005EBA;
   }
 
- .box-style-1 {
+ 
+ /*Team Members*/
+.box-style-1 {
   text-align: center;
   padding: 20px;
   margin: 20px 0;
@@ -231,6 +247,7 @@ height: 250px;
   border: none !important;
 }
 
+/*Products*/
 .panel-heading.gold span{
 color: gold;
 }
@@ -243,12 +260,6 @@ color: silver;
 color: #CD7F32;
 }
 
-.jumbotron h1, .jumbotron .h1 {
-  color: white;
-  }
-  .jumbotron p {
-  color: white;
-}
 
 .product.panel{
   border: 3px solid #008cba;
@@ -262,10 +273,16 @@ color: #CD7F32;
         display: block;
         height: 150px;
     }
-	.products{
+.products{
 	padding-top:100px;
 	}
+	
 .brand img{
 max-width:100%;
 max-height:100%;
+}
+
+/*Contact*/
+.contact-confrimation{
+min-height:300px;
 }
