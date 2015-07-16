@@ -251,7 +251,7 @@ color: #CD7F32;
 
 .product.panel{
   border: 3px solid #008cba;
-  min-height: 320px;
+  min-height: 360px;
 }
 
 #product-carousel .item{
@@ -264,3 +264,7 @@ color: #CD7F32;
 	.products{
 	padding-top:100px;
 	}
+.brand img{
+max-width:100%;
+max-height:100%;
+}
