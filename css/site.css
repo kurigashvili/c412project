@@ -175,6 +175,12 @@ ul.social li {
   font-size: 175%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 990px) {
+.jumbotron {
+  padding-bottom: 550px;
+}
+}
+
 .jumbotronwidth
 {
 max-width:100%;
