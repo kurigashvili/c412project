@@ -215,6 +215,11 @@ color: #f00;
 color: #060; 
 }
 
+.btn-primary {
+  background-color: #005EBA;
+  border-color: #0039A1;
+  }
+
 /*Google Map*/
 #map-canvas{
 background-color: rgb(229, 227, 223);
@@ -248,6 +253,10 @@ height: 250px;
 }
 
 /*Products*/
+.panel-primary  .panel-heading {
+  background-color: #005EBA;
+  }
+  
 .panel-heading.gold span{
 color: gold;
 }
@@ -262,8 +271,8 @@ color: #CD7F32;
 
 
 .product.panel{
-  border: 3px solid #008cba;
-  min-height: 360px;
+  border: 3px solid #004b63;
+  min-height: 350px;
 }
 
 #product-carousel .item{
